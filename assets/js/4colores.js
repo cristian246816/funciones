@@ -23,8 +23,8 @@ YELLOW_BOX.addEventListener("click", () => {
     PINTAR(YELLOW_BOX, "black")
 })
 
-
 // EJERCICIO 2
+
 const DEFAULT_COLOR = "white"
 const DIV_KEY = document.getElementById("key")
 const MENSAJE = document.getElementById("mesage")
@@ -35,21 +35,21 @@ const SKYBLUE = "skyblue"
 document.addEventListener('keydown', function (event) {
     if (event.key === 'a') {
         DIV_KEY.style.backgroundColor = PINK
-        MENSAJE.textContent = 'Presionaste la letra ' + event.key + ' ahora el cuadro  "ROSA".'
+        MENSAJE.textContent = 'Presionaste la letra ' + event.key + ' ahora el cuadro  "Rosado".'
     } else if (event.key === 's') {
         DIV_KEY.style.backgroundColor = ORANGE
-        MENSAJE.textContent = 'Presionaste la letra ' + event.key + ' ahora el cuadro es "ORANGE".'
+        MENSAJE.textContent = 'Presionaste la letra ' + event.key + ' ahora el cuadro es "Naranjo".'
     } else if (event.key === 'd') {
         DIV_KEY.style.backgroundColor = SKYBLUE
-        MENSAJE.textContent = 'Presionaste la letra ' + event.key + ' ahora el cuadro es "VERDE".'
+        MENSAJE.textContent = 'Presionaste la letra ' + event.key + ' ahora el cuadro es "Celeste".'
     }else {
         DIV_KEY.style.backgroundColor = DEFAULT_COLOR
         MENSAJE.textContent = 'Presiona las TECLAS correspondientes.'
     }
 })
 
-
 // EJERCICIO 3
+
 const SKYBLUE2 = "skyblue"
 const ORANGE2 = "orange"
 const BROWN = "brown"
