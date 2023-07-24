@@ -1,0 +1,106 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+
+/* MENU.INDEX.HTML */
+.buttons_navs {
+	gap: 20px;
+	padding: 30px;
+}
+
+.atras a,
+.siguiente a {
+	color: black;
+	font-size: 20px;
+}
+
+.menu {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.menu a {
+	color: green;
+	font-size: 40px;
+	padding: 20px 20px;
+	width: 500px;
+	max-width: 500px;
+}
+
+/* EJERCICIO 3PINTAR */
+
+.flex_body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#ele1 {
+	width: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 100px;
+	font-weight: 600;
+	color: black;
+}
+
+/* EJERCICIO 4COLORES */
+
+.flex_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.container_exer {
+	max-width: 1200px;
+	padding: 0 30px 0 30px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+}
+
+#blueBox {
+	background-color: blue;
+}
+#redBox {
+	background-color: red;
+}
+#greenBox {
+	background-color: green;
+}
+#yellowBox {
+	background-color: yellow;
+}
+#key {
+	background-color: white;
+}
+
+.style_key1 {
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+}
